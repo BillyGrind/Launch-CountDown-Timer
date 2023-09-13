@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 export default function LinkMedia() {
   return (
     <>
-      <Container className="d-flex align-items-center justify-content-center gap-4">
+      <Container className="d-flex align-items-center justify-content-center gap-5 fixed-bottom " style={{marginBottom:"75px"}}>
         <a href="https://www.facebook.com/">
           <svg
             xmlns="http://www.w3.org/2000/svg"

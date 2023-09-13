@@ -21,15 +21,14 @@ body {
   color: $Soft_red;
   height: 100vh;
   text-transform: uppercase;
+  font-weight: 700;
   & h1 {
-    font-weight: 700;
     color: $White;
     font-size: 22px;
     letter-spacing: 10px;
   }
   & p {
     font-size: 8px;
-    font-weight: 500;
     color: $Grayish_blue;
     letter-spacing: 2px;
   }
@@ -65,7 +64,7 @@ body {
   color: $Grayish_blue;
 }
 
-.card-countdown{
+.card-countdown {
   color: $Soft_red;
   background-color: $Dark_desaturated_blue;
   padding: 10px 20px;

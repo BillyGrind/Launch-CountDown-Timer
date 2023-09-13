@@ -12,16 +12,15 @@ body {
   color: hsl(345, 95%, 68%);
   height: 100vh;
   text-transform: uppercase;
+  font-weight: 700;
 }
 body h1 {
-  font-weight: 700;
   color: hsl(0, 0%, 100%);
   font-size: 22px;
   letter-spacing: 10px;
 }
 body p {
   font-size: 8px;
-  font-weight: 500;
   color: hsl(237, 18%, 59%);
   letter-spacing: 2px;
 }

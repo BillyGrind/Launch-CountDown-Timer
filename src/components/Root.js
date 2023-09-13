@@ -12,9 +12,14 @@ export default function Root() {
         className="d-flex align-items-center justify-content-center flex-column "
         style={{ minHeight: "100vh" }}
       >
-        <h1 className="title-main text-wrap text-center">
-          We're Lauching Soon
-        </h1>
+        <Container>
+          <h1
+            className="title-main text-wrap text-center"
+            style={{ paddingBottom: "100px" }}
+          >
+            We're Lauching Soon
+          </h1>
+        </Container>
         <Time />
         <LinkMedia />
       </Container>

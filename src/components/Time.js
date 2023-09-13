@@ -1,5 +1,5 @@
 import React from "react";
-import Countdown,{zeroPad} from "react-countdown";
+import Countdown, { zeroPad } from "react-countdown";
 import { Container, Card } from "react-bootstrap";
 
 export default function Time() {
@@ -7,22 +7,25 @@ export default function Time() {
 
   const renderer = ({ days, hours, minutes, seconds }) => {
     return (
-      <Container className="d-flex align-items-center justify-content-center">
+      <Container
+        className="d-flex align-items-center justify-content-center"
+        style={{ paddingBottom: "200px" }}
+      >
         <Container className="d-flex align-items-center justify-content-center flex-column">
           <Card className="card-countdown">{zeroPad(days)}</Card>
-          <p>Days</p>
+          <p className="pt-2">Days</p>
         </Container>
         <Container className="d-flex align-items-center justify-content-center flex-column">
           <Card className="card-countdown">{zeroPad(hours)}</Card>
-          <p>Hours</p>
+          <p className="pt-2">Hours</p>
         </Container>
         <Container className="d-flex align-items-center justify-content-center flex-column">
           <Card className="card-countdown">{zeroPad(minutes)}</Card>
-          <p>Minutes</p>
+          <p className="pt-2">Minutes</p>
         </Container>
         <Container className="d-flex align-items-center justify-content-center flex-column">
           <Card className="card-countdown">{zeroPad(seconds)}</Card>
-          <p>Seconds</p>
+          <p className="pt-2">Seconds</p>
         </Container>
       </Container>
     );
