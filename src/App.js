@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
 import Root from "./components/Root";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 export default function App() {
   return (

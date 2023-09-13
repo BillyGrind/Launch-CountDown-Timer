@@ -7,13 +7,13 @@ export default function LinkMedia() {
     <>
       <Stack direction="horizontal" gap={2}>
         <a href="https://www.facebook.com/">
-          <BsFacebook className={"text-dark"} />
-        </a>
-        <a href="https://www.instagram.com/">
-          <BsInstagram className={"text-dark"} />
+          <BsFacebook className="logo" />
         </a>
         <a href="https://www.pinterest.com/">
-          <BsPinterest className={"text-dark"} />
+          <BsPinterest className="logo" />
+        </a>
+        <a href="https://www.instagram.com/">
+          <BsInstagram className="logo" />
         </a>
       </Stack>
     </>
